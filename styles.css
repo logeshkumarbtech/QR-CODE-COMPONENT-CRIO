@@ -1,0 +1,48 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .card {
+    max-width: 18rem;
+    background-color: white;
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+  }
+
+  .card h1 {
+    color:hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+
+  }
+
+  .card p {      
+    color: hsl(220, 15%, 55%);
+    padding-inline: 0.8rem;
+  }
+
+  .card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 16px;
+  }
+
+  body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 0.25rem;
+    font-size:0.9375rem;
+  }
